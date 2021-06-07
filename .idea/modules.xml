@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Kamiński_Wiktor_4/AkkaLab.iml" filepath="$PROJECT_DIR$/Kamiński_Wiktor_4/AkkaLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kamiński_Wiktor_1/Kamiński_Wiktor_1.iml" filepath="$PROJECT_DIR$/Kamiński_Wiktor_1/Kamiński_Wiktor_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kamiński_Wiktor_2/Kamiński_Wiktor_2.iml" filepath="$PROJECT_DIR$/Kamiński_Wiktor_2/Kamiński_Wiktor_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kamiński_Wiktor_3/Kamiński_Wiktor_3.iml" filepath="$PROJECT_DIR$/Kamiński_Wiktor_3/Kamiński_Wiktor_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kamiński_Wiktor_4/Kamiński_Wiktor_4.iml" filepath="$PROJECT_DIR$/Kamiński_Wiktor_4/Kamiński_Wiktor_4.iml" />
+    </modules>
+  </component>
+</project>
