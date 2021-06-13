@@ -1,0 +1,50 @@
+.App {
+  /*text-align: center;*/
+  margin: 5vw;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.list-section{
+  width: 20vw;
+}
+.input-section, .markdown-section{
+  width: 33vw;
+}
+
+.input-section{
+}
+
+.MuiGrid-container{
+  justify-content: space-between;
+  /*align-items: flex-start;*/
+}
+
+.markdown-section, .list-section{
+  overflow: scroll;
+}
+
+.list-section, .markdown-section, .input-section{
+  background: white;
+  border-radius: 5px;
+  padding: 10px;
+  height: 65vh;
+}

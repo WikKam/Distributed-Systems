@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+message ListFileRequest{};
+
+message FileNameRequest{
+  string filename = 1;
+}
+
+message FilesList {
+  repeated string name = 1;
+}
+
+message FileContent {
+  string content = 1;
+}
+
+message OperationResult {
+  bool successful = 1;
+  string errorMsg = 2;
+}
+
+message SaveFileRequest {
+  FileContent content = 1;
+  string filename = 2;
+}
+
+service MarkdownEditor {
+  rpc listAllFiles(ListFileRequest) returns (FilesList) {}
+  rpc getFileContent(FileNameRequest) returns (stream FileContent) {}
+  rpc saveFile(SaveFileRequest) returns (OperationResult) {}
+  rpc deleteFile(FileNameRequest) returns (OperationResult) {}
+  rpc createFile(FileNameRequest) returns (OperationResult) {}
+}
